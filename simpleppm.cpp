@@ -57,7 +57,7 @@ int main()
 	// Write out the header to the stream
 	// PPM headers can be defined in different ways, available at the wikipedia link above
 	// We'll use the P6 header here.
-	output_stream << "P3\n"
+	output_stream << "P6\n"
 				  << WIDTH << " "
 				  << HEIGHT << "\n"
 				  << "255\n";
